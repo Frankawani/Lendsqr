@@ -12,11 +12,15 @@
       border-style: solid;
       border-color: #545f7d26;
       background-color: transparent;
+      padding-left: 15px;
     }
     input:focus {
       outline: none;
       box-shadow: none;
       background-color: transparent;
+    }
+    input::after {
+      background-color: lightgreen;
     }
   }
   .form__div2 {
@@ -25,20 +29,29 @@
     border: #545f7d26;
     border-style: solid;
     border-width: 2px;
-    width: 452px;
+    width: 465px;
     height: fit-content;
+    border-radius: 5px;
 
     input {
       border-style: none;
       width: 410px;
       margin-bottom: 0px;
     }
+    .show {
+      color: #39cdcc;
+      font-size: small;
+      margin-right: 7px;
+      font-weight: 600;
+    }
   }
-  p {
+  .forgot__password {
     color: #39cdcc;
     margin-block-start: 0;
     font-size: small;
-    display: inline-flex;
+    padding-top: 20px;
+    font-size: small;
+    font-weight: 600;
   }
   .login__button {
     background-color: #39cdcc;
@@ -46,7 +59,7 @@
     height: 50px;
     border-color: #39cdcc;
     border-style: none;
-    width: 457px;
+    width: 469px;
     margin-top: 20px;
     color: white;
     font-size: medium;

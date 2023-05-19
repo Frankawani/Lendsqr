@@ -47,7 +47,7 @@ const LoginForm: React.FC = () => {
           placeholder="Password"
           className="password__input"
         />
-        <p>SHOW</p>
+        <p className="show">SHOW</p>
       </div>
       <p className="forgot__password">FORGOT PASSWORD?</p>
 
