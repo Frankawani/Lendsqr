@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/login.scss";
-import LoginForm from "./LoginForm";
-const Logo = require("../images/Group.png") as string;
-const Loginpic = require("../images/pablo-sign-in 1.png") as string;
+import "./login.scss";
+import LoginForm from "../../components/loginForm/LoginForm";
+const Logo = require("../../images/Group.png") as string;
+const Loginpic = require("../../images/pablo-sign-in 1.png") as string;
 
 // Usage in JSX:
 
