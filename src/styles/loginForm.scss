@@ -11,16 +11,13 @@
       box-shadow: none;
       border-style: solid;
       border-color: #545f7d26;
-      background-color: transparent;
+      background-color: transparent !important;
       padding-left: 15px;
     }
     input:focus {
       outline: none;
       box-shadow: none;
-      background-color: transparent;
-    }
-    input::after {
-      background-color: lightgreen;
+      background-color: transparent !important;
     }
   }
   .form__div2 {
@@ -52,6 +49,7 @@
     padding-top: 20px;
     font-size: small;
     font-weight: 600;
+    margin-left: 5px;
   }
   .login__button {
     background-color: #39cdcc;

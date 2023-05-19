@@ -20,7 +20,7 @@ const LoginForm: React.FC = () => {
     // Perform login logic with email and password
 
     // Assuming successful login, navigate to the home page
-    navigate("/home");
+    navigate("/dashboard");
   };
 
   return (
