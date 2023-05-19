@@ -1,0 +1,36 @@
+.form {
+  font-family: Avenir Next;
+  div {
+    input {
+      width: 447px;
+      height: 40px;
+      left: 836px;
+      top: 368px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: none;
+      border-style: solid;
+      border-color: #545f7d26;
+      background-color: transparent;
+    }
+    .password__input {
+      position: relative;
+    }
+  }
+  p {
+    color: #39cdcc;
+    margin-block-start: 0;
+    font-size: small;
+  }
+  .login__button {
+    background-color: #39cdcc;
+    border-radius: 8px;
+    height: 50px;
+    border-color: #39cdcc;
+    border-style: none;
+    width: 457px;
+    margin-top: 20px;
+    color: white;
+    font-size: medium;
+  }
+}
