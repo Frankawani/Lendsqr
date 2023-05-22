@@ -1,30 +1,40 @@
 import React from "react";
-
+import "./header.scss";
+import SearchIcon from "@mui/icons-material/Search";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 const Logo = require("../../images/Group.png") as string;
+const Profilepic = require("../../images/image 4.png") as string;
+
 function Header() {
   return (
     <header>
-      <div>
-        <img src={Logo} alt="" />
-      </div>
-      <div>
-        <input type="text" placeholder="search for anything" />
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+      <div className="header__div1">
+        <img src={Logo} alt="" className="header__logo" />
+        <div className="header__searchDiv">
+          <input
+            type="text"
+            placeholder="search for anything"
+            className="header__input"
           />
-        </svg>
+          <SearchIcon className="searchIcon" />
+        </div>
       </div>
-      <div></div>
+      <div className="header__div2">
+        <div className="headerDiv2__one">
+          <p className="header__docs">Docs</p>
+          <NotificationsNoneIcon />
+        </div>
+        <div className="headerDiv2__two">
+          <img
+            src={Profilepic}
+            alt="profile pic"
+            className="header__profilePic"
+          />
+          <p>Adedeji</p>
+          <ArrowDropDownIcon />
+        </div>
+      </div>
     </header>
   );
 }
