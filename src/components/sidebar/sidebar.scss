@@ -1,0 +1,102 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid lightgray;
+  min-height: 100vh;
+  background-color: white;
+
+  color: #213f7d;
+
+  .center {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      .title {
+        font-size: 10px;
+        font-weight: bold;
+        color: #999;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+      }
+    }
+    li {
+      display: flex;
+      align-items: center;
+      height: 40px;
+      margin-top: 10px;
+      padding: 0;
+      //
+      cursor: pointer;
+      &:hover {
+        background-color: #d7f7f7;
+
+        .vertical-line {
+          border-left: 4px solid #39cdcc;
+          height: 40px;
+        }
+      }
+
+      .vertical-line {
+        border-left: 4px solid transparent;
+        height: 40px;
+      }
+
+      .icon {
+        font-size: 18px;
+        color: #888;
+        margin-left: 20px;
+      }
+      span {
+        font-size: 13px;
+        font-weight: 600;
+        color: #888;
+        margin-left: 10px;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      .sidebar__switchOrg {
+        color: #333;
+        font-weight: 500;
+        font-size: 18px;
+      }
+
+      .sidebar__expandicon {
+        font-size: large;
+      }
+    }
+
+    .sidebar__switchOrgLi {
+      margin-bottom: 30px;
+    }
+
+    .sidebar__dashboard {
+      margin-bottom: 25px;
+    }
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    .colorOption {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      border: 1px solid #7451f8;
+      cursor: pointer;
+      margin: 5px;
+
+      &:nth-child(1) {
+        background-color: whitesmoke;
+      }
+      &:nth-child(2) {
+        background-color: #333;
+      }
+    }
+  }
+}
