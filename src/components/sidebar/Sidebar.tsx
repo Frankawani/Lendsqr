@@ -31,19 +31,18 @@ function Sidebar() {
     <div className="sidebar">
       <div className="center">
         <ul>
-          <li className="sidebar__switchOrgLi">
+          <div className="sidebar__switchOrgLi">
             {" "}
-            <div className="vertical-line"></div>
             <BusinessCenterIcon className="icon" />
             <span className="sidebar__switchOrg">Switch Organization</span>
             <ExpandMoreIcon className="sidebar__expandicon" />
-          </li>{" "}
-          <li className="sidebar__dashboard">
+          </div>{" "}
+          <div className="sidebar__switchOrgLi">
             {" "}
             <div className="vertical-line"></div>
             <HomeIcon className="icon" />
             <span>Dasboard</span>
-          </li>
+          </div>
           <p className="title"> CUSTOMERS</p>
           <div className="sidebar__container">
             <li>

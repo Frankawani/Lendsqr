@@ -1,0 +1,76 @@
+header {
+  display: flex;
+  height: 95px;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+header .header__div1 {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__div1 .header__logo {
+  width: 20%; /* Adjust the value as needed */
+  height: 30px;
+  align-self: center;
+}
+header .header__div1 .header__searchDiv {
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: rgba(77, 85, 107, 0.1490196078);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1.8px;
+  display: flex;
+  width: 55%;
+}
+header .header__div1 .header__searchDiv .header__input {
+  height: 39px;
+  border-style: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 0 10px;
+  width: 100%;
+}
+header .header__div1 .header__searchDiv input::-moz-placeholder {
+  color: #999999; /* desired color value */
+}
+header .header__div1 .header__searchDiv input::placeholder {
+  color: #999999; /* desired color value */
+}
+header .header__div1 .header__searchDiv .searchIcon {
+  color: white;
+  background: #39cdcc;
+  height: 41px;
+  padding: 0 15px;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header .header__div2 {
+  display: flex;
+  width: 20%;
+}
+header .header__div2 .headerDiv2__one {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__div2 .headerDiv2__one .header__docs {
+  text-decoration: underline;
+}
+header .header__div2 .headerDiv2__two {
+  width: 60%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__div2 .headerDiv2__two .header__profilePic {
+  border-radius: 50%;
+}/*# sourceMappingURL=header.css.map */

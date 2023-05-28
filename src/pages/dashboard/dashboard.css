@@ -1,0 +1,15 @@
+.dashboard {
+  height: 100vh;
+}
+.dashboard .dashboard__container {
+  display: flex;
+}
+.dashboard .dashboard__container .dashboard__containerInner {
+  flex: 4;
+  background: #f5f4f4;
+}
+.dashboard .dashboard__container .dashboard__containerInner .dashboard__widget {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}/*# sourceMappingURL=dashboard.css.map */

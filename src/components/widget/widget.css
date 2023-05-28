@@ -1,0 +1,57 @@
+.widget {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height: 130px;
+  font-family: Work Sans;
+  font-size: 14px;
+  background: white;
+}
+.widget .left,
+.widget .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.widget .left .title,
+.widget .right .title {
+  font-weight: bold;
+  font-size: 14px;
+  color: gray;
+}
+.widget .left .counter,
+.widget .right .counter {
+  font-size: 28px;
+  font-weight: 300;
+}
+.widget .left .link,
+.widget .right .link {
+  font-size: 12px;
+  border-bottom: 1px solid gray;
+  width: -moz-max-content;
+  width: max-content;
+}
+.widget .left .percentage,
+.widget .right .percentage {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.widget .left .percentage.positive,
+.widget .right .percentage.positive {
+  color: green;
+}
+.widget .left .percentage.negative,
+.widget .right .percentage.negative {
+  color: red;
+}
+.widget .left .icon,
+.widget .right .icon {
+  font-size: 18px;
+  padding: 14px;
+  border-radius: 50px;
+  align-self: flex-start;
+}/*# sourceMappingURL=widget.css.map */

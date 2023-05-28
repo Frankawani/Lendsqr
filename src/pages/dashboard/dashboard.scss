@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.dashboard {
+  height: 100vh;
+  font-family: "Work Sans";
+
+  .dashboard__container {
+    display: flex;
+
+    .dashboard__containerInner {
+      flex: 4;
+      background: #f5f4f4;
+      padding: 20px 40px;
+      h1 {
+        letter-spacing: 0px;
+        width: 100%;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #213f7d;
+      }
+      .dashboard__widget {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.form {
+  font-family: Avenir Next;
+}
+.form div input {
+  width: 447px;
+  height: 40px;
+  left: 836px;
+  top: 368px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  border-style: solid;
+  border-color: rgba(84, 95, 125, 0.1490196078);
+  background-color: transparent !important;
+  padding-left: 15px;
+}
+.form div input:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent !important;
+}
+.form .form__div2 {
+  display: flex;
+  align-items: center;
+  border: rgba(84, 95, 125, 0.1490196078);
+  border-style: solid;
+  border-width: 2px;
+  width: 465px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
+}
+.form .form__div2 input {
+  border-style: none;
+  width: 410px;
+  margin-bottom: 0px;
+}
+.form .form__div2 .show {
+  color: #39cdcc;
+  font-size: small;
+  margin-right: 7px;
+  font-weight: 600;
+}
+.form .forgot__password {
+  color: #39cdcc;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  font-size: small;
+  padding-top: 20px;
+  font-size: small;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.form .login__button {
+  background-color: #39cdcc;
+  border-radius: 8px;
+  height: 50px;
+  border-color: #39cdcc;
+  border-style: none;
+  width: 469px;
+  margin-top: 20px;
+  color: white;
+  font-size: medium;
+}/*# sourceMappingURL=loginForm.css.map */

@@ -3,14 +3,61 @@
   border-right: 0.5px solid lightgray;
   min-height: 100vh;
   background-color: white;
-
+  padding-top: 20px;
   color: #213f7d;
+  height: 100vh; // Set the desired height for the div
+  overflow-y: scroll; // Add a vertical scroll
+  padding-bottom: 40px;
+
+  &::-webkit-scrollbar {
+    width: 4px; // Set the width of the scrollbar
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #888; // Set the color of the scrollbar thumb
+    border-radius: 4px; // Set the border radius of the thumb
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #eee; // Set the color of the scrollbar track
+    border-radius: 4px; // Set the border radius of the track
+  }
 
   .center {
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
+      .sidebar__switchOrgLi {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin-top: 10px;
+        padding: 0;
+
+        .icon {
+          font-size: 18px;
+          color: #888;
+          margin-left: 24px;
+        }
+
+        span {
+          font-size: 13px;
+          font-weight: 600;
+          color: #888;
+          margin-left: 10px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+        .sidebar__expandicon {
+          font-size: large;
+        }
+      }
+
       .title {
         font-size: 10px;
         font-weight: bold;
@@ -63,10 +110,6 @@
         color: #333;
         font-weight: 500;
         font-size: 18px;
-      }
-
-      .sidebar__expandicon {
-        font-size: large;
       }
     }
 
